@@ -1,1 +1,1 @@
-hello qa.guru
+Hello, qa.guru!
