@@ -23,13 +23,16 @@ public class TextBoxTests {
     }
     @Test
     void succesfullFillFormTest(){
-        open("https://demoqa.com/automation-practice-form");
+        open("/automation-practice-form");
         $("#firstName").setValue("Ivan");
         $("#lastName").setValue("Ivanov");
         $("#userEmail").setValue("Ivan@mail.ru");
-        $("[class=custom-control-label]").click();
+        $("#genterWrapper").$(byText("Male")).click();
         $("#userNumber").setValue("1234567890");
-        $("#dateOfBirthInput").setValue("25 Apr 1995");
+        $("#dateOfBirthInput").click();
+        $(".react-datepicker__year-select").$(byText("1995")).click();
+        $(".react-datepicker__month-select").$(byText("April")).click();
+        $(".react-datepicker__day--0" + "25").click();
         $("#subjectsInput").setValue("English").pressEnter();
         $("#hobbiesWrapper").$(byText("Sports")).click();
         $("#hobbiesWrapper").$(byText("Reading")).click();
