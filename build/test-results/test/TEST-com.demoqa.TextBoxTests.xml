@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.demoqa.TextBoxTests" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-04-07T21:13:15" hostname="MacBook-Air-Rustam.local" time="9.483">
+<testsuite name="com.demoqa.TextBoxTests" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-04-09T20:48:02" hostname="MacBook-Air-Rustam.local" time="12.991">
   <properties/>
-  <testcase name="succesfullFillFormTest()" classname="com.demoqa.TextBoxTests" time="9.483">
-    <failure message="Invalid element state [#hobbiesWrapper/by text: Sports]: element click intercepted: Element &lt;label title=&quot;&quot; for=&quot;hobbies-checkbox-1&quot; class=&quot;custom-control-label&quot;&gt;...&lt;/label&gt; is not clickable at point (606, 542). Other element would receive the click: &lt;td&gt;...&lt;/td&gt;&#10;Screenshot: file:/Users/rustamkurganov/IdeaProjects/demo-qa-test1/build/reports/tests/1680902005177.0.png&#10;Page source: file:/Users/rustamkurganov/IdeaProjects/demo-qa-test1/build/reports/tests/1680902005177.0.html&#10;Timeout: 4 s.&#10;Caused by: ElementClickInterceptedException: element click intercepted: Element &lt;label title=&quot;&quot; for=&quot;hobbies-checkbox-1&quot; class=&quot;custom-control-label&quot;&gt;...&lt;/label&gt; is not clickable at point (606, 542). Other element would receive the click: &lt;td&gt;...&lt;/td&gt;" type="com.codeborne.selenide.ex.InvalidStateException">Invalid element state [#hobbiesWrapper/by text: Sports]: element click intercepted: Element &lt;label title=&quot;&quot; for=&quot;hobbies-checkbox-1&quot; class=&quot;custom-control-label&quot;&gt;...&lt;/label&gt; is not clickable at point (606, 542). Other element would receive the click: &lt;td&gt;...&lt;/td&gt;
-Screenshot: file:/Users/rustamkurganov/IdeaProjects/demo-qa-test1/build/reports/tests/1680902005177.0.png
-Page source: file:/Users/rustamkurganov/IdeaProjects/demo-qa-test1/build/reports/tests/1680902005177.0.html
+  <testcase name="succesfullFillFormTest()" classname="com.demoqa.TextBoxTests" time="12.991">
+    <failure message="Invalid element state [#state]: element click intercepted: Element &lt;div class=&quot; css-2b097c-container&quot; id=&quot;state&quot;&gt;...&lt;/div&gt; is not clickable at point (661, 707). Other element would receive the click: &lt;div&gt;...&lt;/div&gt;&#10;Screenshot: file:/Users/rustamkurganov/IdeaProjects/demo-qa-test1/build/reports/tests/1681073294883.0.png&#10;Page source: file:/Users/rustamkurganov/IdeaProjects/demo-qa-test1/build/reports/tests/1681073294883.0.html&#10;Timeout: 4 s.&#10;Caused by: ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot; css-2b097c-container&quot; id=&quot;state&quot;&gt;...&lt;/div&gt; is not clickable at point (661, 707). Other element would receive the click: &lt;div&gt;...&lt;/div&gt;" type="com.codeborne.selenide.ex.InvalidStateException">Invalid element state [#state]: element click intercepted: Element &lt;div class=&quot; css-2b097c-container&quot; id=&quot;state&quot;&gt;...&lt;/div&gt; is not clickable at point (661, 707). Other element would receive the click: &lt;div&gt;...&lt;/div&gt;
+Screenshot: file:/Users/rustamkurganov/IdeaProjects/demo-qa-test1/build/reports/tests/1681073294883.0.png
+Page source: file:/Users/rustamkurganov/IdeaProjects/demo-qa-test1/build/reports/tests/1681073294883.0.html
 Timeout: 4 s.
-Caused by: ElementClickInterceptedException: element click intercepted: Element &lt;label title=&quot;&quot; for=&quot;hobbies-checkbox-1&quot; class=&quot;custom-control-label&quot;&gt;...&lt;/label&gt; is not clickable at point (606, 542). Other element would receive the click: &lt;td&gt;...&lt;/td&gt;
+Caused by: ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot; css-2b097c-container&quot; id=&quot;state&quot;&gt;...&lt;/div&gt; is not clickable at point (661, 707). Other element would receive the click: &lt;div&gt;...&lt;/div&gt;
 	at app//com.codeborne.selenide.impl.ExceptionWrapper.wrap(ExceptionWrapper.java:26)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:154)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
 	at app/jdk.proxy3/jdk.proxy3.$Proxy16.click(Unknown Source)
-	at app//com.demoqa.TextBoxTests.succesfullFillFormTest(TextBoxTests.java:39)
+	at app//com.demoqa.TextBoxTests.succesfullFillFormTest(TextBoxTests.java:42)
 	at java.base@17.0.6/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@17.0.6/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base@17.0.6/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -97,16 +97,15 @@ Caused by: ElementClickInterceptedException: element click intercepted: Element 
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label title=&quot;&quot; for=&quot;hobbies-checkbox-1&quot; class=&quot;custom-control-label&quot;&gt;...&lt;/label&gt; is not clickable at point (606, 542). Other element would receive the click: &lt;td&gt;...&lt;/td&gt;
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot; css-2b097c-container&quot; id=&quot;state&quot;&gt;...&lt;/div&gt; is not clickable at point (661, 707). Other element would receive the click: &lt;div&gt;...&lt;/div&gt;
   (Session info: chrome=111.0.5563.146)
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.3', java.version: '17.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [186b0c557af9e056a06345d7af817f9d, clickElement {id=18b44a86-34b3-447d-bef4-aab4b12a2498}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/pz/dmv2fcw56n1...}, goog:chromeOptions: {debuggerAddress: localhost:59109}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:59109/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[[[ChromeDriver: chrome on MAC (186b0c557af9e056a06345d7af817f9d)] -&gt; css selector: #hobbiesWrapper]] -&gt; xpath: .//*/text()[normalize-space(translate(string(.), '	
- ', '    ')) = &quot;Sports&quot;]/parent::*]
-Session ID: 186b0c557af9e056a06345d7af817f9d
+Command: [e43c665f1926fa8cad41287fa1eb3fa0, clickElement {id=ade05162-a5a0-457d-8dc4-57fad9e97f93}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/pz/dmv2fcw56n1...}, goog:chromeOptions: {debuggerAddress: localhost:51959}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51959/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (e43c665f1926fa8cad41287fa1eb3fa0)] -&gt; css selector: #state]
+Session ID: e43c665f1926fa8cad41287fa1eb3fa0
 	at java.base@17.0.6/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base@17.0.6/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base@17.0.6/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -137,11 +136,11 @@ SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
 SLF4J: Ignoring binding found at [jar:file:/Users/rustamkurganov/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.29/82ae07f95088577987a15d90171de12b00d81847/slf4j-simple-1.7.29.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
-Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 17787
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 48215
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-апр. 08, 2023 12:13:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+апр. 09, 2023 11:48:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
 ]]></system-err>
 </testsuite>

@@ -50,7 +50,7 @@ public class TextBoxTests {
                 text("Ivan@mail.ru"),
                 text("Male"),
                 text("1234567890"),
-                text("25 Apr 1995"),
+                text("25 Apr,1995"),
                 text("English"),
                 text("Sports, Reading, Music"),
                 text("example.jpg"),
