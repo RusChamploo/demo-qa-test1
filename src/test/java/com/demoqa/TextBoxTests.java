@@ -3,15 +3,12 @@ package com.demoqa;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import java.io.File;
 
+import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
-
-
+import static com.codeborne.selenide.Selenide.*;
 
 
 public class TextBoxTests {
@@ -24,6 +21,8 @@ public class TextBoxTests {
     @Test
     void succesfullFillFormTest(){
         open("/automation-practice-form");
+        executeJavaScript("$('#fixedban').remove()");
+        executeJavaScript("$('footer').remove()");
         $("#firstName").setValue("Ivan");
         $("#lastName").setValue("Ivanov");
         $("#userEmail").setValue("Ivan@mail.ru");
@@ -50,7 +49,7 @@ public class TextBoxTests {
                 text("Ivan@mail.ru"),
                 text("Male"),
                 text("1234567890"),
-                text("25 Apr,1995"),
+                text("25 April,1995"),
                 text("English"),
                 text("Sports, Reading, Music"),
                 text("example.jpg"),
